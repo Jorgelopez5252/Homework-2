@@ -1,99 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home page</title>
 
-    <link rel="stylesheet" type="text/css" href="../Homework-2/assets/css/style.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- style -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../Homework-2/assets/css/style.css">
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="whitename" href="#"><strong>Jorge A Lopez</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--end of Navbar -->
+  <div class="wrapper">
 
-              <header>
+    <div class="container">
+      <div class="col-sm">
+        <h1><strong>About me</strong></h1>
+        <div class="greybar"></div>
+        <div class="row">
+          <div class="col-sm-2">
+            <img id="sidepicture" class="about-img"
+              src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21231231_1673184466027019_4802291841130913650_n.jpg?_nc_cat=102&_nc_oc=AQk4ihTbsdlBJqgSne3j85khg7bcArfxJ0sRJveb2LaVTCmtjqYYnKdJRWvzpicy8gY&_nc_ht=scontent-lax3-1.xx&oh=46bf9c083b7af2d79ce8eaf24049a5da&oe=5E3A90F4"
+              alt="Fossil Creek">
+          </div>
 
-                    <div class="headercontainer">
-                        <div class="name">Jorge A Lopez </div>
-            
-                        <div class="link">
-                            <br>
-                            <a href="index.html">About</a> | <a href="portfolio.html"> Portfolio</a> | <a
-                                href="contact.html">Contact</a>
-                        </div>
-                    </div>
+          <div class="col-sm-10">
+            <div id="sidetext">
+            <p><strong>"If you dont work hard on your own dream, you will work hard for someone elses
+                dream"-Unknown</strong></p>
+            <p>Im a big video gamer and collector that has collected a nice haul of trinkits and gear over the years. My
+              main hobbies besides those are cooking food, walking my dogs, and hanging out with the boys from time to
+              time.</p>
 
-                    
-            
-                </header>
-                <div class="classItem">
-                        <h2>About Me</h2>
-                        <div class="greybar"></div>
-                        <P class="hr"></P>
-                        <br>
-                
-                        <img id="sidepicture" class="about-img"
-                            src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21231231_1673184466027019_4802291841130913650_n.jpg?_nc_cat=102&_nc_oc=AQk4ihTbsdlBJqgSne3j85khg7bcArfxJ0sRJveb2LaVTCmtjqYYnKdJRWvzpicy8gY&_nc_ht=scontent-lax3-1.xx&oh=46bf9c083b7af2d79ce8eaf24049a5da&oe=5E3A90F4"
-                            alt="Fossil Creek">
-                
-                        <p><strong>"If you dont work hard on your own dream, you will work hard for someone elses
-                                dream"-Unknown</strong></p>
-                        <p>Im a big video gamer and collector that has collected a nice haul of trinkits and gear over the years. My
-                            main hobbies besides those are cooking food, walking my dogs, and hanging out with the boys from time to
-                            time.</p>
-                
-                        <p>I was born in San Diego, California but moved to Mesa, Arizona when I was 7 years old. I guess you could say
-                            I am a native here at this point! My main goals are to achive a passing status with my recent Bootcamp class
-                            I started, so I may tackle bigger projects in the future!</p>
-                
-                        <p>My background is mostly sales starting with person to person sales at a Sprint store within a local mall,
-                            then worked for an insurance broker, and finally started sales with Bank of America as part of the new Chat
-                            website team! I hope I can stop sales for a bit and get to coding as soon as possible</p>
-                
-                
-                        <br>
-                    </div>
-                    <footer>Copyright©</footer>
-                  </div>
-                
-                    </div>
-                </body>
-                
-                </html>
+            <p>I was born in San Diego, California but moved to Mesa, Arizona when I was 7 years old. I guess you could
+              say
+              I am a native here at this point! My main goals are to achive a passing status with my recent Bootcamp
+              class
+              I started, so I may tackle bigger projects in the future!</p>
+
+            <p>My background is mostly sales starting with person to person sales at a Sprint store within a local mall,
+              then worked for an insurance broker, and finally started sales with Bank of America as part of the new
+              Chat
+              website team! I hope I can stop sales for a bit and get to coding as soon as possible</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+ </div>
+    <footer>Copyright©</footer>
+  </div>
+
+</body>
+
+</html>

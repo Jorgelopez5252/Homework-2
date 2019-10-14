@@ -8,6 +8,11 @@ body {
   min-height: 100vh;
 }
 
+/* !!!need to fix this area for scaling!!! */
+/* @media screen and (max-width: 768px) {.container {
+  color: black;
+}
+} */
 /* NAVBAR */
 
 .navbar-brand {
@@ -16,6 +21,9 @@ body {
   padding: 10px;
  
 }
+
+
+
 
 #whitename {
 
@@ -47,7 +55,7 @@ h2 {
 }
 
 p { font-size: 15px;
-
+ 
 
 }
 #tinkbar {
@@ -81,8 +89,9 @@ p { font-size: 15px;
 }
 
 #sidepicture {
-  width: 150px;
-  margin-left: 20px;
+  width: 200px;
+  margin-right: 20px;
+  float: left;
 
 }
 #sidetext {

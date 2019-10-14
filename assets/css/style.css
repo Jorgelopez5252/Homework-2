@@ -8,6 +8,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 /* !!!need to fix this area for scaling!!! */
 /* @media screen and (max-width: 768px) {.container {
   color: black;
@@ -21,9 +23,6 @@ body {
   padding: 10px;
  
 }
-
-
-
 
 #whitename {
 
@@ -64,7 +63,7 @@ p { font-size: 15px;
 
 }
 
-.greybar {
+.hr {
   background-color: grey;
   opacity: .4;
   height: 3px;
@@ -89,23 +88,12 @@ p { font-size: 15px;
 }
 
 #sidepicture {
-  width: 200px;
+  width: 250px;
   margin-right: 20px;
   float: left;
 
 }
-#sidetext {
-  margin-left:30px;
-}
 
-#row1 {
-  margin: 0 auto;
-}
-
-.col-xm {
-  position: relative;
-  max-width: 100%;
-}
 
 .work {
   position: relative;
@@ -194,6 +182,9 @@ p { font-size: 15px;
 
 
 footer {
+  position: fixed;
+  left:0;
+  bottom:0;
   height: 40px;
   background-color: grey;
   margin-top: auto;
@@ -203,4 +194,9 @@ footer {
   text-align: center;
   color: white;
   font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+
+  
 }

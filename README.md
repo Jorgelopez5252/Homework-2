@@ -10,7 +10,7 @@
 - [Description](#Description)
 - [Technologies-Libraries](#Technologies-Libraries)
 - [Screenshots](#Screenshots)
-- [Link](#github link)
+- [Link](#Link)
 ​
 ### Description
 A mobile responsive portfolio to showcase my coding work and let visitors know a little bit about me.

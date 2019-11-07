@@ -26,7 +26,7 @@ A mobile responsive portfolio to showcase my coding work and let visitors know a
 ​
 ![Image](assets/images/Capture.png)
 ​
-![Image](assets/images/Capture.png)
+![Image](assets/images/Capture2.png)
 ​
 ![Image](assets/images/Capture3.png)
 ### Link
